@@ -1,0 +1,117 @@
+figcaption {
+    position: absolute;
+    top: 2rem;
+    margin: 0 2rem;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+#car{
+    height: 600px;
+    width: 100%;
+}
+Table{
+    list-style-type: none;
+    border: none;
+    color:white;
+}
+.trFooter{
+    list-style-type: none;
+    border: none;
+    color: white;
+    text-align: center;
+}
+#borderH1{
+    border-bottom: 5px solid black;
+    margin-left: 43%;
+}
+.tdFooter{
+    border: none;
+    list-style-type:none;
+    font-family: 'PT Serif', serif; 
+}
+#carThumbnail{
+    width: 100%;
+}
+#containerContact{
+    background: url('../images/contactBaner.jpg') black center no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+#carAbout{
+    height: 300px;
+}
+.Header{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5%;
+}
+#paragrafBaner {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+.paragrafAbout{
+    font-family: 'PT Serif', serif; 
+}
+#paragrafDwaBaner {
+    float: left;
+    margin-top: 3%;
+    font-family: 'PT Serif', serif;
+}
+#footerContainer{
+    background-color: black;
+    color:white;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.thumbnailAboutParagraf{
+    font-family: 'PT Serif', serif;
+}
+.thumbnailParagrafH{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.tbodyFooter{
+    text-decoration-line: none;
+}
+.HeaderAbout{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2%;
+}
+.contactH1{
+    font-family: 'Oswald', sans-serif; 
+}
+.paragrafContact{
+    font-family: 'PT Serif', serif; 
+}
+form{
+    font-family: 'PT Serif', serif; 
+}
+.h2Footer{
+    font-family: 'Oswald', sans-serif; 
+}
+#footerContainerC{
+    
+}
+#footerRow{
+  
+}
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+div {
+
+}
+
+@media screen and (max-width: 768px) {
+    figcaption {
+        position: inherit;
+        bottom: inherit;
+        margin: .25rem 0px;
+        font-size: inherit;
+        color: inherit;
+    }
+}
