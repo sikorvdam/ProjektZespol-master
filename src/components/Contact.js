@@ -12,34 +12,17 @@ export const Contact = () => {
          <Row text-center id="rowContact">
                 <div className="col-12 col-md-6">
                     <h3 className="contactH1">ZAMÓW REZERWACJE JUŻ DZISIAJ</h3>
-                    <p className="paragrafContact">Skorzystaj z naszego formularza kontaktowego celem rezerwacji samochodu. Oddzwonimy !</p>
+                    <p className="paragrafContact">Skorzystaj z naszego formularza kontaktowego celem informacji lub rezerwacji samochodu. Skontaktujemy się !</p>
                 </div>
                 <div className="col-12 col-md-5">
                 <div className="text-center">
-                <Form>
-  <fieldset>
-    <Form.Group className="mb-3">
-      <Form.Label htmlFor="TextInput">Imię i nazwisko:</Form.Label>
-      <Form.Control id="TextInput" placeholder="Imię i nazwisko" />
-    </Form.Group>
-    <Form.Group className="mb-3">
-      <Form.Label htmlFor="Select">Wybierz pojazd:</Form.Label>
-      <Form.Select id="Select">
-        <option>Lamborghini Gallardo</option>
-        <option>Ford Mustang Shelby</option>
-        <option>BMW M5</option>
-      </Form.Select>
-      <Form.Group className="mb-3">
-      <Form.Label htmlFor="TextInput">Numer telefonu:</Form.Label>
-      <Form.Control id="TextInput" placeholder="+48 555 555 555" />
-    </Form.Group>
-    <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Adres e-mail:</Form.Label>
-    <Form.Control type="email" placeholder="przykladowy@przykladowy.com" />
-  </Form.Group>
-    </Form.Group>
-    <Button type="submit" className="buttonContact">Wyślij</Button>
-  </fieldset>
+                <Form >
+                <a href="https://us10.list-manage.com/contact-form?u=f2ddef379726cc56b4d6a3e8b&form_id=ee7f916f75dbd93ab85ee129a6a54930">
+                <Button type="button" className="buttonmail">Kliknij tu aby przejść do formularza </Button>
+                </a>
+                
+                
+
 </Form>
 </div>
 </div>
