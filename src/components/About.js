@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row} from "react-bootstrap"
+import aboutBaner from "../images/aboutBaner2.jpg"
 import car from "../images/lambo.jpg"
 import mustang from "../images/mustang.jpg"
 import bmw from "../images/bmw.jpg"
 import { Footer } from './Footer'
 export const About = () => {
-    
         return(
             <div>
-            <Container fluid>
+            <Container fluid id="containerAbout">
                 <h1 className="HeaderAbout">Oferta</h1>
                 <div className="col-2" id="borderH1"></div>
                 <p className="paragrafAbout">W naszej bogatej ofercie znajdziecie Państwo trzy samochody marki premium. Wypożyczanie jest możliwe w opcji długoterminowej, średnioterminowej oraz krótkoterminowym.</p>
-                <Row>
+                <Row id="rowAbout">
                     <div className="col-12 col-md-4">
-                        <div className="img-thumbnail">
+                        <div className="img-thumbnail" id="thumbnailAbout">
                         <img src={car} alt="Lamborghini" className="img-fluid" id="carAbout" />
                         <p className="thumbnailParagrafH">Lamborghini Gallardo</p>
                         <p className="thumbnailAboutParagraf">Segment D</p>
@@ -29,7 +29,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
-                    <div className="img-thumbnail">
+                    <div className="img-thumbnail" id="thumbnailAbout">
                     <img src={mustang} alt="Mustang" className="img-fluid" id="carAbout" />
                         <p className="thumbnailParagrafH">Ford Mustang Shelby</p>
                         <p className="thumbnailAboutParagraf">Segment D</p>
@@ -43,7 +43,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
-                    <div className="img-thumbnail">
+                    <div className="img-thumbnail" id="thumbnailAbout">
                     <img src={bmw} alt="BMW" className="img-fluid" id="carAbout" />
                         <p className="thumbnailParagrafH">BMW M5</p>
                         <p className="thumbnailAboutParagraf">Segment E</p>
