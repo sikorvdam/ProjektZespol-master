@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Table} from "react-bootstrap"
 import { BsTelephone, BsMailbox, BsHouseDoor, BsFacebook, BsInstagram } from "react-icons/bs"
@@ -8,7 +8,7 @@ export const Footer = () => {
         return(
             <Container fluid className="container-fluid" id="footerContainer">
                 <Container id="footerContainerC">
-                    <Row id="footerRow">
+                    <Row id="footerRow" className="justify-content-center">
                     
                         <div className="col-12 col-md-4">
                         <div className="text-center">
@@ -28,7 +28,7 @@ export const Footer = () => {
 </Table>
                         </div>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-4">
                         <div className="text-center">
                             <h2 className="h2Footer">Odwiedź nas</h2>
                             <Table size="sm">

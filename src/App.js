@@ -16,19 +16,21 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-               <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+               <Navbar sticky="top" bg="black" variant="dark" expand="lg">
     <Container fluid>
-    <Navbar.Brand href="#">WsBCars</Navbar.Brand>
+    <div className="col-lg-2"></div>
+    <Navbar.Brand href="/">WsBCars</Navbar.Brand>
+    <div className="col-lg-5"></div>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
-        className="me-auto my-2 my-lg-0"
+        className="me-auto my-2 my-lg-2"
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link as={Link} to={"/"}>Strona Główna</Nav.Link>
-        <Nav.Link as={Link} to={"/about"} href="#about">Oferta</Nav.Link>
-        <Nav.Link as={Link} to={"/contact"}>Kontakt</Nav.Link>
+        <Nav.Link as={Link} to={"/"} id="navLink">Strona Główna</Nav.Link>
+        <Nav.Link as={Link} to={"/about"} href="#about" id="navLink">Oferta</Nav.Link>
+        <Nav.Link as={Link} to={"/contact"} href="" id="navLinkLast">Kontakt</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
