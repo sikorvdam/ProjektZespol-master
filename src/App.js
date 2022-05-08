@@ -1,5 +1,6 @@
 
 import './App.css';
+import React, { useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Navbar,Nav,Container} from 'react-bootstrap'
 import {
@@ -12,7 +13,18 @@ import{ About} from "./components/About"
 import {Contact} from "./components/Contact"
 import {Home} from "./components/Home"
 import {Footer} from "./components/Footer"
+import ReactGA from 'react-ga';
 function App() {
+  useEffect(() => {
+
+    ReactGA.initialize('UA-228120154-1');
+    // To Report Page View 
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
+
+  useEffect(() => {
+   console.log(window.location.pathname)
+  })
   return (
     <BrowserRouter>
     <div className="App">
